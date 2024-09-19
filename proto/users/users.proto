@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-option go_package="github.com/az58740/connect-go-server/users/v1;usersv1";
+option go_package="github.com/az58740/connect-go-server/users/v1";
 
-package users.v1;
+package users;
 enum UserStatus {
     USER_STATUS_UNKNOWN = 0;
     USER_STATUS_OFFLINE = 1;
